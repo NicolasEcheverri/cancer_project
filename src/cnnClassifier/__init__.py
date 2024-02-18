@@ -1,7 +1,7 @@
 import os
 import sys
 import logging
-
+#1. este notebook es para crear el logger y que vaya guardando las ejecucione
 #modulo: carpeta de donde se está ejecutando. 
 #message es el mensaje que se le pasa  logger.info("welcome to cnnClassifier") 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
