@@ -26,6 +26,7 @@ jobs:
         run: echo "Running unit tests"
 
   #CICD
+  #Los nombres de aquí son los que aparecen en github actions
   build-and-push-ecr-image:
     name: Continuous Delivery
     needs: integration
