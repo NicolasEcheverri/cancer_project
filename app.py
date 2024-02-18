@@ -5,7 +5,7 @@ from cnnClassifier.utils.common import decodeImage
 from cnnClassifier.pipeline.prediction import PredictionPipeline
 
 
-#inicializando Flask. cambio
+#inicializando Flask. cambio 2
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
 
