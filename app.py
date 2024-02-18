@@ -50,6 +50,7 @@ def predictRoute():
 
 #ejecutando ClientApp cuando se ejecute este .py
 if __name__ == "__main__":
+    #cambio para que ejecute de nuevo github actions
     clApp = ClientApp()
     app.run(host='0.0.0.0', port=8080) #for AWS
 

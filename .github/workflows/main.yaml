@@ -87,6 +87,7 @@ jobs:
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
          
+      #CAMBIO: Luego de ejecutarlo  descoemntarlo. en la primera ronda no se hace pues no está registrado el contenedor
       # - name: Stop and remove container if running
       #   run: |
       #    docker ps -q --filter "name=cnncls" | grep -q . && docker stop cnncls && docker rm -fv cnncls
